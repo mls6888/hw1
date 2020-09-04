@@ -17,7 +17,7 @@ C3 = input("Enter your course 3 letter grade: ")
 char = C3
 credit3 = input("Enter your course 3 credit: ")
 credit3 = int(credit3)
-gradepoint3 = float(f"{GPA[C2]}") 
+gradepoint3 = float(f"{GPA[C3]}") 
 print("Grade point for course 3 is: " f"{GPA[C3]} ")
 GPA = (gradepoint1*credit1+gradepoint2*credit2+gradepoint3*credit3)/(credit1+credit2+credit3)
 print("Your GPA is:",GPA)
