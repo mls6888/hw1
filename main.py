@@ -9,7 +9,7 @@ gradepoint1 = float(f"{GPA[C1]}")
 print("Grade point for course 1 is: "f"{GPA[C1]}") 
 C2 = input("Enter your course 2 letter grade: ")
 char = C2
-credit2 = input("Enter Course 2 credit: ")
+credit2 = input("Enter your course 2 credit: ")
 credit2 = int(credit2)
 gradepoint2 = float(f"{GPA[C2]}")
 print("Grade point for course 2 is: " f"{GPA[C2]} ")
