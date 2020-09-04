@@ -1,6 +1,6 @@
 # Author: Michael Sullivan msulli6293@psu.edu
 
-GPA = {'A': 4, 'A-': 3.67, 'B+': 3.33, 'B': 3, 'B-': 2.67, 'C+': 2.33, 'C': 2, 'D': 1, 'F': 0}
+GPA = {'A': 4.0, 'A-': 3.67, 'B+': 3.33, 'B': 3.0, 'B-': 2.67, 'C+': 2.33, 'C': 2.0, 'D': 1.0, 'F': 0.0}
 C1 = input("Enter your course 1 letter grade: ")
 char = C1
 credit1 = input("Enter your course 1 credit: ")
